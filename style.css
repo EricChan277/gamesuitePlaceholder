@@ -1,0 +1,36 @@
+.text {
+  color: white;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.soon {
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.personWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+}
+
+html {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ghlinks {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.ghlinks:hover {
+  color: #2196f3;
+}
