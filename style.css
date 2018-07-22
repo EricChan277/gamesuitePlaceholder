@@ -3,16 +3,9 @@
   font-family: 'Sunflower', sans-serif;
 }
 
-.soon {
-  font-size: 70px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .personWrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 60vw;
 }
@@ -23,7 +16,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 .links {
