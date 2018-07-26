@@ -5,74 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">
     <title>GameSuite</title>
-
 </head>
 
-<body class="main">
-
+<body class="background">
     <div class="main">
-        <div class="text">
-            <img src="./src/Gamesuite-Logo_Horizontal-FullColour-Tag-White.svg">
-
+        <div class="logo-wrapper">
+            <img class="logo" src="./src/Gamesuite-Logo_Horizontal-FullColour-Tag.svg">
+        </div>
+        <div class="content-wrapper">
             <div class="form">
-                <h2>Get notified when we launch.</h2>
+                <h1 class="main-header">Under Construction</h1>
+                <h2 class="text">Subscribe to get notified when we launch</h2>
                 <form class="form" name="contact" method="POST" netlify>
-
-
-                    <div>
-                        <p>Email</p>
-                        <input class="input-text" type="email" name="email" />
+                    <div class="input-wrapper">
+                        <input class="input-text text" type="email" name="email" placeholder="Enter your email address" />
+                        <button class="input-button" type="submit">Submit</button>
                     </div>
-
-
-                    <p>
-                        <button class="input-button" type="submit">Send</button>
-                    </p>
                 </form>
             </div>
-
-
-            <footer>
-
-                <div class="personWrapper">
-
-                    <div>
-                        <h2>Brandon Liu</h2>
-                        <p>A smol code boi</p>
-
-                        <div class="links">
-                            <a href="https://github.com/2lives">
-                                <img src="./src/GitHub-Mark-Light-32px.png">
-                            </a>
-                            <a href="https://www.linkedin.com/in/1brandonliu">
-                                <img src="./src/In-White-34px-R.png">
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <h2>Eric Chan</h2>
-                        <p>Code monkey</p>
-                        <div class="links">
-                            <a href="https://github.com/EricChan277">
-                                <img src="./src/GitHub-Mark-Light-32px.png">
-                            </a>
-                            <a href="https://www.linkedin.com/in/eric-chan277">
-                                <img src="./src/In-White-34px-R.png">
-                            </a>
-                        </div>
-
-                    </div>
+        </div>
+        <div class="people-wrapper">
+            <div>
+                <h2 class="text">Brandon Liu</h2>
+                <div class="links">
+                    <a href="https://github.com/2lives">
+                        <img src="./src/GitHub-Mark-32px.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/1brandonliu">
+                        <img src="./src/In-Black-34px-R.png">
+                    </a>
                 </div>
-                <script src='./index.js'></script>
-            </footer>
+            </div>
 
+            <div>
+                <h2 class="text">Eric Chan</h2>
+                <div class="links">
+                    <a href="https://github.com/EricChan277">
+                        <img src="./src/GitHub-Mark-32px.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/eric-chan277">
+                        <img src="./src/In-Black-34px-R.png">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+
+
+    <img class="hero-img" src="./src/Hero-Image.png">
 
 </body>
 
